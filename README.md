@@ -6,8 +6,6 @@
  <a href="https://github.com/withstars/Blog-System"><img src="https://img.shields.io/hexpm/l/plug.svg" alt="license"></a>
 </p>
 
-<img src="https://github.com/withstars/Blog-System/blob/master/preview/0.png">
-
 ### 如何使用
 ```
 $ git clone https://github.com/withstars/Blog-System
