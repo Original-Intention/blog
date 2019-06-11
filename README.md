@@ -6,23 +6,4 @@
  <a href="https://github.com/withstars/Blog-System"><img src="https://img.shields.io/hexpm/l/plug.svg" alt="license"></a>
 </p>
 
-### 如何使用
-```
-$ git clone https://github.com/withstars/Blog-System
-
-$ cd Blog-System
-
-$ mvn clean compile
-
-$ mvn clean package
-
-$ mvn clean install
-
-$ mvn jetty:run
-
-http://localhost:8080
-http://localhost:8080/admin 
-```
-### 说明
-1. 如果使用该项目出现问题，请联系我 withstars@126.com
-2. 如果该项目对您有帮助,请star鼓励我
+<img src="https://github.com/Original-Intention/blog/blob/v3/preview/example1.png">
