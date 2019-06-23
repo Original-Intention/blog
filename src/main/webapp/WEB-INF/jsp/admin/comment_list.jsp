@@ -9,7 +9,7 @@
     System.out.println(root);
 %>
 <head>
-    <meta charset="UTF-8">
+    <meta content=”text/html;charset=utf-8″>
     <title>博客管理系统</title>
     <link rel="stylesheet" href="<%=root %>/css/bootstrap4.0.min.css" >
     <script src="<%=root %>/js/jquery.slim.min.js" ></script>

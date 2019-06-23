@@ -7,7 +7,7 @@
     System.out.println(root);
 %>
 <head>
-    <meta charset="UTF-8">
+    <meta content=”text/html;charset=utf-8″>
     <title>Zou's Blog</title>
     <link rel="shortcut icon" type="image/x-icon" href="/img/web-icon.png" media="screen" />
 

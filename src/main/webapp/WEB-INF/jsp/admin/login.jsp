@@ -178,13 +178,13 @@
     </ol>
     <div class="carousel-inner">
         <div class="item active">
-            <img src="<%=root %>/img/82839-106.jpg" alt="第一张">
+            <img src="<%=root %>/img/login_01.jpg" alt="第一张">
         </div>
         <div class="item">
-            <img src="<%=root %>/img/105905-106.jpg" alt="第二张">
+            <img src="<%=root %>/img/login_02.jpg" alt="第二张">
         </div>
         <div class="item">
-            <img src="<%=root %>/img/296494-106.jpg" alt="第三张">
+            <img src="<%=root %>/img/login_03.jpg" alt="第三张">
         </div>
 
     </div>

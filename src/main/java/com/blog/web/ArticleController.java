@@ -16,11 +16,16 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.servlet.http.HttpServletRequest;
+import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 
+/**
+ * @author zouwh
+ * @date 2019-4-11 11:28:07
+ */
 @Controller
 public class ArticleController {
 
@@ -86,7 +91,8 @@ public class ArticleController {
         return modelAndView;
     }
     @RequestMapping("/admin/article/add/do")
-    public String articleAddDo(HttpServletRequest request,RedirectAttributes redirectAttributes){
+    public String articleAddDo(HttpServletRequest request,RedirectAttributes redirectAttributes) throws UnsupportedEncodingException {
+        request.setCharacterEncoding("UTF-8");
         Article article=new Article();
         article.setTitle(request.getParameter("title"));
         article.setCatalogId(Integer.parseInt(request.getParameter("catalogId")));

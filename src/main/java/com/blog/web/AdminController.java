@@ -1,9 +1,7 @@
 package com.blog.web;
 
-import com.blog.dao.CommentDao;
 import com.blog.domain.Admin;
 import com.blog.domain.AdminLoginLog;
-import com.blog.service.AdminLoginLogService;
 import com.blog.service.impl.AdminLoginLogServiceImpl;
 import com.blog.service.impl.ArticleServiceImpl;
 import com.blog.service.impl.CommentServiceImpl;
@@ -17,6 +15,10 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * @author zouwh
+ * @date 2019-4-12 16:40:01
+ */
 @Repository
 @RequestMapping("/admin")
 public class AdminController {
